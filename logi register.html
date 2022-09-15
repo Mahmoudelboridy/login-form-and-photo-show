@@ -1,0 +1,117 @@
+<html>
+    <head>
+        <title>login register</title>
+    <style>
+        *{
+            text-align:center;
+        }
+        button{
+            border-radius: 12px;
+            border: none;
+            background-color:#81d4fa ;
+            color: black;
+            font-size:20pt;
+           cursor:pointer;
+         transition:0.5s;
+        }
+        button:hover{
+background-color:#64b5f6;
+letter-spacing:1px;
+}
+        div{
+            width:80%;
+            margin:auto;
+
+        }
+        table{
+            width:500px;
+            height:250px;
+            margin-left:350px;
+        }
+        h2{
+         font-size:30pt;
+         text-transform:uppercase;
+        }
+        input{
+width:100%;
+height:40px;
+outline:none;
+margin:4px 0px;
+background-color:#fbfbe6;
+border-radius:4px;
+padding:4px;
+font-size:20pt;
+color:black;
+}
+input:focus{
+background-color:#ffebee;
+transform:scale(1.03);
+}
+#t2{
+    margin-top: 25px;
+    display: none;
+}
+body{
+    background-color:#b3e5fc ;
+}
+img{
+
+    position:absolute; 
+    top:50px;
+    left:510px;
+    display:none;
+    height: 500px;
+}
+    </style>
+    </head>
+<body>
+    <div>
+        <button id="b3">login direct</button>
+    <table id="t1" >
+        <tr   >
+        <td  colspan="2"  ><h2 >register </h2></td>
+        </tr>
+        <tr>
+        <td>
+        <input id="i1" colspan="2" placeholder="user name" type="text" />
+        </td>
+        </tr>
+        <tr>
+        <td>
+        <input id="i2" colspan="2" placeholder="password" type="password"/>
+        </td>
+        </tr>
+        <tr>
+        <td >
+            <button id="b1">register</button> 
+        </td>
+        </tr>
+        </table>
+        </table>
+    <table id="t2" >
+        <tr   >
+        <td  colspan="2"  ><h2 >login </h2></td>
+        </tr>
+        <tr>
+        <td>
+        <input id="i3" colspan="2" placeholder="user name" type="text" />
+        </td>
+        </tr>
+        <tr>
+        <td>
+        <input id="i4" colspan="2" placeholder="password" type="password"/>
+        </td>
+        </tr>
+        <tr>
+        <td >
+        <button id="b2">login</button> 
+        </td>
+        </tr>
+        </table>
+    </div>
+    <button id="ss">clear</button>
+    <img name="sm" />
+    <script src="maa.js"></script>
+    
+</body>
+</html>
